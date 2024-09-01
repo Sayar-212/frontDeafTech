@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeafTech</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <h1 class="title">Deaf</h1>
+            <img src="DeafTech.png" alt="DeafTech Logo" class="logo">
+            <h1 class="title">Tech</h1>
+        </div>
+        <div class="buttons">
+            <button class="hover-btn" onclick="navigateTo('login.html')">Login/Sign Up</button>
+            <button class="hover-btn" onclick="navigateTo('contact.html')">Contacts/Helpdesk</button>
+            <button class="hover-btn" onclick="navigateTo('start.html')">Start</button>
+        </div>
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
